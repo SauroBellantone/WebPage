@@ -1,5 +1,49 @@
-.container{
-
-    height: auto;
-    width: auto;
+.quadratoCentrale {
+    width: 600px;  /* Modifica questa dimensione come vuoi */
+    height: 800px; /* Modifica questa dimensione come vuoi */
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.2); /* Ombra per effetto 3D */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.gif1 {
+    width: 600px;   /* Stesse dimensioni del quadrato */
+    height: 800px;  /* Stesse dimensioni del quadrato */
+    position: absolute;
+    top: 50%;
+    left: -620px;   /* Posiziona la GIF a sinistra del quadrato */
+    transform: translateY(-50%); /* Centra la GIF verticalmente */
+}
+
+
+
+.logo {
+    width: 150px;  /* Modifica la dimensione del logo */
+    height: auto;
+    position: absolute;
+    top: 20px; /* Distanza dal bordo superiore del quadrato */
+    left: 20%;
+    transform: translateX(-50%);
+}
+
+.titulo {
+
+    font-size: 50px;
+    position: absolute;
+    bottom: 20px; /* Distanza dal bordo superiore del quadrato */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.wallpaper {
+    background-image: url("https://www.gnamgnam.it/wp-content/uploads/2025/02/15-kurtoskalacs.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
